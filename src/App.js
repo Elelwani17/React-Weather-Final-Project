@@ -19,7 +19,7 @@ export default function App() {
             </a>
             ,{" "}
             <a
-              href="https://github.com/Elelwani17/SheCodes-React-Weather-Search-Engine"
+              href="https://github.com/Elelwani17/React-Weather-Final-Project"
               target="_blank"
               rel="noreferrer"
             >
