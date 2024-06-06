@@ -1,15 +1,42 @@
+import React from "react";
 import "./App.css";
-import WeatherSearch from "./WeatherSearch";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Get a Weather a Forecast</h1>
-      <WeatherSearch />
-      <br />
-      <br />
-      <div>
-        <a href="https://github.com/Elelwani17/SheCodes-React-Weather-Search-Engine">Github</a>
+      <div className="container">
+        <Weather city="Cape Town" />
+        <footer>
+          <p>
+            {" "}
+            This project was coded by{" "}
+            <a
+              href="https://github.com/Elelwani17"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Lufuno Vele
+            </a>
+            ,{" "}
+            <a
+              href="https://github.com/Elelwani17/SheCodes-React-Weather-Search-Engine"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced{" "}
+            </a>
+            on GitHub and hosted on{" "}
+            <a
+              href=""
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+            .
+          </p>
+        </footer>
       </div>
     </div>
   );
