@@ -8,7 +8,7 @@
 .App footer {
   margin-top: 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 19px;
   color: black;
 }
 .App footer a {
@@ -17,7 +17,7 @@
   color: darkgreen;
 }
 body {
-    background-image: url('https://media.tacdn.com/media/attractions-splice-spp-674x446/0c/00/e4/c3.jpg');
+    background-image: url('https://cdn.britannica.com/42/126842-050-0803BC41/Sea-Point-Cape-Town-SAf.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
