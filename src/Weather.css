@@ -4,7 +4,7 @@
   padding: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: rgba(30, 30, 31, 0.724);
+  color: white; /* Change text color to white */
   line-height: 1.5;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -15,7 +15,11 @@
   border: 1px solid;
   border-radius: 4px;
   background-color: rgba(31, 36, 43, 0.084);
-  color: rgba(31, 36, 43, 0.904);
+  color: white; /* Change input text color to white */
+}
+
+.Weather .form-search-bar::placeholder {
+  color: white; /* Change placeholder text color to white */
 }
 
 .Weather .search-button {
@@ -34,10 +38,12 @@
 
 .Weather h1 {
   font-size: 48px;
+  color: white; /* Change h1 text color to white */
 }
 
 .Weather .weather-overview {
   align-items: center;
+  color: white; /* Change overview text color to white */
 }
 
 .Weather .weather-overview-right {
@@ -55,26 +61,30 @@
 
 .Weather .temperature {
   font-size: 75px;
+  color: white; /* Change temperature text color to white */
 }
 
 .Weather .units {
   font-size: 20px;
   position: relative;
   top: -41px;
+  color: white; /* Change units text color to white */
 }
 
 .Weather h1 {
   margin-top: 20px;
+  color: white; /* Change h1 text color to white */
 }
 
 .Weather ul {
   margin: 0;
   padding: 0;
-  color: rgba(30, 30, 31, 0.548);
+  color: white; /* Change list text color to white */
 }
 
 .Weather li {
   list-style: none;
+  color: white; /* Change list item text color to white */
 }
 
 .Weather .additional-details {
@@ -84,10 +94,12 @@
 .Weather .additional-details li {
   display: inline;
   margin-right: 10px;
+  color: white; /* Change additional details text color to white */
 }
 
 .Weather .additional-details-measurements {
   font-weight: bold;
+  color: white; /* Change additional details measurements text color to white */
 }
 
 @media (max-width: 767px) {
@@ -101,11 +113,13 @@
 
   .Weather h1 {
     font-size: 40px;
+    color: white; /* Change h1 text color to white */
   }
 
   .Weather li {
     display: inline-block;
     margin: 10px;
+    color: white; /* Change list item text color to white */
   }
 
   .Weather .weather-overview-right {
@@ -119,12 +133,13 @@
 
   .Weather .temperature {
     font-size: 50px;
+    color: white; /* Change temperature text color to white */
   }
 
   .Weather .units {
     font-size: 19px;
     position: relative;
     top: -30px;
+    color: white; /* Change units text color to white */
   }
 }
-
