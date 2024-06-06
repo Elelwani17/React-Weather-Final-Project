@@ -9,6 +9,7 @@
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
+  color: black;
 }
 .App footer a {
   text-decoration: none;
@@ -16,7 +17,7 @@
   color: darkgreen;
 }
 body {
-    background-image: url('https://qph.cf2.quoracdn.net/main-qimg-e88b39f4684c4b087d8357fe304148bf-lq');
+    background-image: url('https://media.tacdn.com/media/attractions-splice-spp-674x446/0c/00/e4/c3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
