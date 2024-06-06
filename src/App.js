@@ -9,7 +9,6 @@ export default function App() {
         <Weather city="Cape Town" />
         <footer>
           <p>
-            {" "}
             This project was coded by{" "}
             <a
               href="https://github.com/Elelwani17"
@@ -24,17 +23,9 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-              open-sourced{" "}
-            </a>
-            on GitHub and hosted on{" "}
-            <a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              Netlify
-            </a>
-            .
+              open-sourced
+            </a>{" "}
+            on GitHub.
           </p>
         </footer>
       </div>
