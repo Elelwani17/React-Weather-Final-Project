@@ -9,12 +9,12 @@
   margin-top: 40px;
   text-align: center;
   font-size: 19px;
-  color: black;
+  color: white;
 }
 .App footer a {
   text-decoration: none;
   font-weight: bold;
-  color: darkgreen;
+  color: rgb(249, 241, 4);
 }
 body {
     background-image: url('https://cdn.britannica.com/42/126842-050-0803BC41/Sea-Point-Cape-Town-SAf.jpg');
